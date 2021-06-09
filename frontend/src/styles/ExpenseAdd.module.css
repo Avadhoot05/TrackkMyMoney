@@ -1,0 +1,17 @@
+.txtcolor{
+    color:#fff;
+}
+
+.alert{
+    font: normal normal 300 1vw 'Open Sans', sans-serif;
+    color:#F44336;
+}
+
+.container{
+    margin-top: 10rem;
+}
+
+.optioncolor{
+    background: #353535;
+    color: #fff;
+}

@@ -1,0 +1,136 @@
+.title{
+    font:normal normal 800 2vw 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 9rem auto 3rem auto;
+}
+
+.titlebrief{
+    margin-top: 3rem;
+    text-transform: uppercase;
+}
+
+.textcolor{
+    color: #fff;
+}
+
+.filtercontainer{
+    min-width: 40%;
+    max-width: 60%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flexcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linkcont{
+    margin:1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    color: #fff;
+    width: 50%;
+    margin: 3rem auto;
+}
+
+.gridcontainer{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.typeselect{
+    text-align: center;
+    padding:4px 10px;
+    margin: 10px auto; 
+}
+
+.outercard{
+    margin: 1rem 0.3rem;
+    background: transparent;
+}
+
+.card{
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: rgb(46, 46, 46);
+    color: #fff;
+    border-radius: 10px;    
+}
+
+.amounttext{
+    color: #3effd5;
+    margin-top: 10px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+
+/*---------------------------------------*/
+
+.briefcardcontainer{
+    width: 40%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #353535;
+    padding: 2rem;
+    border-radius:10px ;
+}
+
+.briefcardtitle{
+    color:#fff;
+    font: normal normal 800 2vw 'Open Sans',sans-serif;
+    margin-bottom: 1rem;
+}
+
+.briefcardamtcontainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.briefcardamt{
+    font: normal normal 600 1.3vw 'Open Sans',sans-serif;
+    color: #3effd5;
+    
+}
+
+/*--------------------------------*/
+
+.briefgrid{
+    width: 80%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 20px;
+}
+
+
+.briefcardcontainer1{
+    width: 100%;
+}
+
+
+
+  

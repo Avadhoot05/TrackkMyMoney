@@ -1,0 +1,23 @@
+.containeraddn{
+    margin: 11rem auto;
+}
+
+
+.title{
+    text-transform: uppercase;
+    text-align: left;
+    color: #cddc39;
+    font: normal normal 800 7vw 'Open Sans', sans-serif;
+    line-height: 6vw;
+    letter-spacing: 0.4rem;
+    padding-left: 1rem;
+}
+
+
+.bannerimg{
+    float: left;
+    width: 32vw;
+    height: auto;
+    padding-right: 1rem;
+}
+

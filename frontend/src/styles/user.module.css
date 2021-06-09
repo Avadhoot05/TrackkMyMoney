@@ -1,0 +1,33 @@
+.title{
+    font: normal normal 800 2vw 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 5rem auto;
+}
+
+.accountsuggest{
+    color:#fff;
+    margin:0 5px 0 0;
+}
+
+.accountsuggestlink{
+    color: #CDDC39;
+    text-decoration: none;
+}
+
+.accountsuggestlink:hover{
+    color: #F44336;
+}
+
+.pswdwarning{
+    color: #F44336;
+    text-align: left;
+    font-weight: 300;
+}
+
+
+.alert{
+    font: normal normal 300 1vw 'Open Sans', sans-serif;
+    color:#F44336;
+}
