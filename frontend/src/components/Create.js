@@ -142,6 +142,7 @@ function Create() {
                             placeholder="Email Id"
                             fullWidth
                             id="email"
+                            type="email"
                             onChange={inputHandler}
                             value={user_info.email}
                             InputProps={{className: classes.textColor}}

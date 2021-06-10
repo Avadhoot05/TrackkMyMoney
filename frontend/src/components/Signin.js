@@ -108,6 +108,7 @@ function Signin() {
                 value={user_info_login.email} 
                 onChange={inputHandler}
                 placeholder="Email"
+                type="email"
                 InputProps={{className: classes.textColor}}
                 autoFocus/>
 
