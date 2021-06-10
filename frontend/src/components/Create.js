@@ -12,6 +12,7 @@ import Container from '@material-ui/core/Container';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import red from '@material-ui/core/colors/red';
 import lime from '@material-ui/core/colors/lime';
+import validator from 'validator'
 
 import style from '../styles/user.module.css'
 
@@ -58,6 +59,7 @@ function Create() {
 
     const [user_info, setUserinfo] = useState({name:"", email:"", pswd:"", cpswd:""})
     const [pswd_validate, setPswdValidtion] = useState(false)
+    const [email_validate, setEmailValidation] = useState(false)
     const [errorState, setErrorState] = useState({flg:false,msg:""})
 
     const classes = useStyles();
@@ -99,6 +101,15 @@ function Create() {
     const inputHandler = e=>{
 
         setErrorState({flg:false ,msg:""})
+
+        if(e.target.name==='email' && validator.isEmail(e.target.value))
+            setEmailValidation(true)
+        else if(e.target.name==='email')
+            setEmailValidation(false)
+            
+
+        
+
 
         if(e.target.name==='pswd' && e.target.value.length<6){
             setPswdValidtion(true)
@@ -147,6 +158,9 @@ function Create() {
                             value={user_info.email}
                             InputProps={{className: classes.textColor}}
                             name="email"/>
+                            {
+                            email_validate && <h6 className={style.pswdwarning}>Enter valid email</h6>
+                            }
                     </Grid>
                     <Grid item xs={12}>
                         <TextField
