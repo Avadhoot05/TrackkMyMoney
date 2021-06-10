@@ -102,7 +102,7 @@ function Create() {
 
         setErrorState({flg:false ,msg:""})
 
-        if(e.target.name==='email' && validator.isEmail(e.target.value))
+        if(e.target.name==='email' && !validator.isEmail(e.target.value))
             setEmailValidation(true)
         else if(e.target.name==='email')
             setEmailValidation(false)
