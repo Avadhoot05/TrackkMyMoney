@@ -1,8 +1,10 @@
 MERN Expense Tracker
 Visit: http://trackkmymoney.herokuapp.com/
+
 Demo on Youtube: https://www.youtube.com/watch?v=2W5UXzU8kCs
 
-About Trackk My Money,
+### `About Trackk My Money`
+
 - It helps to keep record of daily expenses with ease. 
 - Users can create, view, update, delete records at any time.
 - Optional image attachments  also supported which can help to securely store the invoices, bills online.
